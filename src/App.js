@@ -16,7 +16,7 @@ function App() {
         <Switch>
             <Route path={'/'} element={<Home />} />
             <Route path={'/user'} element={<User />} />
-            <Route path={'/player'} element={<Player />} />
+            <Route path={'/item/:id'} element={<Player />} />
             <Route path={'/library'} element={<Library />} />
         </Switch>
       </Router>
