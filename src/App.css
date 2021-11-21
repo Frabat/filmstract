@@ -4,7 +4,8 @@
   flex-direction: column;
   text-align: center;
   background: #282c34;
-  height: 100vh
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://www.gamelegends.it/wp-content/uploads/2020/06/dark-netflix.jpg");
 }
 .App-footer {
   position: fixed;

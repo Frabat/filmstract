@@ -1,9 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Footer} from "../../Components/footer";
 export const Library = () => {
-    const podcasts = [
 
-    ]
     useEffect(() => {
 
     }, [])

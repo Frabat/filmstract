@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Footer} from "../../Components/footer";
-export const Player = () => {
+import ReactAudioPlayer from "react-audio-player";
+export const Player = (props) => {
+    useEffect(() => {
+        console.log(props);
+    }, [])
     return(
         <>
         <div className={'App-footer'}>
             <Footer />
         </div>
-        <h1>
-            OH UN PLAYER
-        </h1>
+        <ReactAudioPlayer src={''}/>
         </>
     )
 }
